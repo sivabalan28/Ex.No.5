@@ -2,9 +2,14 @@
 
 # EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
 
-# Aim: To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
+# Aim: 
+To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios.  Analyze the quality, accuracy, and depth of the generated responses 
 
-### AI Tools Required: 
+## Prompt Types Defined
+
+Naïve Prompt: Broad, vague, or unstructured instructions.
+
+Basic Prompt: Clear, detailed, and structured prompts with context.
 
 # Explanation: 
 Define the Two Prompt Types:
@@ -34,5 +39,45 @@ Summary of findings with insights on how to structure prompts for optimal result
 
 
 # OUTPUT
+| **Scenario**              | **Naïve Prompt**            | **Basic Prompt**                                                                                                                        | **Naïve Output (Summary)**                              | **Basic Output (Summary)**                                                       | **Comparison**                                         |
+| ------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| **Creative Story**        | "Tell me a story."          | "Write a 500-word children’s bedtime story about a dragon who learns kindness, with a happy ending."                                    | Very generic, short story with no strong theme.         | Rich, structured narrative with character development, moral, and proper ending. | Basic prompt produces higher quality, deeper response. |
+| **Factual Question**      | "What is AI?"               | "Explain Artificial Intelligence in simple terms, including definition, applications, and an example of daily use, in under 150 words." | Broad definition, mixed technical details, not focused. | Concise, structured explanation with clear examples.                             | Basic prompt improves accuracy and readability.        |
+| **Summarization**         | "Summarize this article."   | "Summarize the given article in 3 bullet points highlighting main ideas, keeping it under 100 words."                                   | Long, verbose response, sometimes missing key points.   | Clear, focused summary with key highlights.                                      | Basic prompt provides clarity and relevance.           |
+| **Advice/Recommendation** | "Give me advice."           | "Provide 3 practical tips for improving focus while studying, with short explanations for each."                                        | Very general motivational advice.                       | Actionable, specific, and organized tips.                                        | Basic prompt ensures useful, applicable output.        |
+| **Technical Explanation** | "Explain machine learning." | "Explain machine learning to a beginner in 200 words, using a simple analogy and mentioning one real-world application."                | Complex explanation with jargon.                        | Simplified explanation, analogy, and relevant example.                           | Basic prompt ensures depth and accessibility.          |
 
-# RESULT: The prompt for the above said problem executed successfully
+## Evaluation Criteria
+
+Quality: Basic prompts consistently improve organization and richness of output.
+
+Accuracy: Refined prompts guide the model toward factually relevant and concise answers.
+
+Depth: Structured prompts encourage detailed, insightful responses.
+
+## Findings
+
+This study confirms that structured prompts are essential for achieving high-quality outputs in AI-generated content. Clear and refined prompts reduce ambiguity, improve factual accuracy, and encourage detailed and professional responses. For automated maintenance report generation and similar professional applications, using refined prompt templates is recommended to ensure consistency, reliability, and depth of output.
+
+Basic prompts outperform naïve prompts in nearly all scenarios, especially where context and specificity are important (summaries, advice, technical explanations).
+
+Naïve prompts sometimes work well for open-ended creative tasks, but still lack structure and depth compared to refined prompts.
+
+Prompt clarity has a direct impact on the accuracy, completeness, and usability of AI-generated responses.
+
+## Summary of Insights
+
+When using ChatGPT (or similar AI tools), prompt clarity and refinement are critical for optimal results.
+
+Structured prompts help in:
+
+Reducing irrelevant or verbose content.
+
+Improving accuracy by guiding scope.
+
+Enhancing depth by enforcing specific details.
+
+For automated maintenance report generation, refined prompt templates should be used to ensure consistency, accuracy, and professional quality.
+
+# RESULT: 
+The prompt for the above said problem executed successfully
